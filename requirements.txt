@@ -8,4 +8,4 @@ dash
 jupyter-dash
 dash-bootstrap-components
 matplotlib
-sklearn
+scikit-learn
