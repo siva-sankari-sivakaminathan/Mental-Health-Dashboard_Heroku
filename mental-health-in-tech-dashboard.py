@@ -23,25 +23,6 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 # You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session
 
 
-# In[2]:
-
-
-get_ipython().system('pip install dash')
-
-
-# In[3]:
-
-
-get_ipython().system('pip install jupyter_dash')
-
-
-# In[4]:
-
-
-get_ipython().system('pip install dash_bootstrap_components')
-
-
-# In[5]:
 
 
 import pandas as pd
