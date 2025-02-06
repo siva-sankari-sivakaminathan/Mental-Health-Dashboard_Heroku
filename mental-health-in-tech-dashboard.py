@@ -50,13 +50,13 @@ pio.renderers.default = "notebook_connected"
 # In[6]:
 
 
-survey_2017 = pd.read_csv("/kaggle/input/mental-health-in-tech-dashboard-2016-to-2020/OSMI Mental Health in Tech Survey 2017.csv", na_values = np.nan)
+survey_2017 = pd.read_csv("./data/OSMI Mental Health in Tech Survey 2017.csv", na_values = np.nan)
 survey_2017['year'] = '2017'
-survey_2018 = pd.read_csv("/kaggle/input/mental-health-in-tech-dashboard-2016-to-2020/OSMI Mental Health in Tech Survey 2018.csv", na_values = np.nan)
+survey_2018 = pd.read_csv("./data/OSMI Mental Health in Tech Survey 2018.csv", na_values = np.nan)
 survey_2018['year'] = '2018'
-survey_2019 = pd.read_csv("/kaggle/input/mental-health-in-tech-dashboard-2016-to-2020/OSMI Mental Health in Tech Survey 2019.csv", na_values = np.nan)
+survey_2019 = pd.read_csv("./data/OSMI Mental Health in Tech Survey 2019.csv", na_values = np.nan)
 survey_2019['year'] = '2019'
-survey_2020 = pd.read_csv("/kaggle/input/mental-health-in-tech-dashboard-2016-to-2020/OSMI Mental Health in Tech Survey 2020 .csv", na_values = np.nan)
+survey_2020 = pd.read_csv("./data/OSMI Mental Health in Tech Survey 2020 .csv", na_values = np.nan)
 survey_2020['year'] = '2020'
 survey_data_ls = [survey_2017, survey_2018, survey_2019, survey_2020]
 print(f"survey_2017.columns =  {len(survey_2017.columns)}")
