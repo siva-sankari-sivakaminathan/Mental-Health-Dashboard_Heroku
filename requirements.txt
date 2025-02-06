@@ -11,3 +11,5 @@ matplotlib
 scikit-learn
 nbformat
 wordcloud
+seaborn
+plotly
