@@ -10,3 +10,4 @@ dash-bootstrap-components
 matplotlib
 scikit-learn
 nbformat
+wordcloud
