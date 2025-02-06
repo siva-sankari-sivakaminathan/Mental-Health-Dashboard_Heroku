@@ -1,1 +1,2 @@
-gunicorn
+dash==2.x.x
+gunicorn==20.x.x
