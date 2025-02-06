@@ -1,1 +1,1 @@
-worker: python script.py
+worker: python mental-health-in-tech-dashboard.py
