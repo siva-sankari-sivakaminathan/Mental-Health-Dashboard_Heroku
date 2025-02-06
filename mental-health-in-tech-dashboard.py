@@ -36,7 +36,6 @@ import plotly.express as px
 import matplotlib.pyplot as plt 
 
 import pandas as pd
-import jupyter_dash
 from dash.dependencies import Input, Output, State
 import numpy as np 
 import dash
@@ -799,7 +798,6 @@ import matplotlib as plt
 import plotly.express as px
 import pandas as pd
 from dash import Dash, html, dcc
-from jupyter_dash import JupyterDash
 from dash.dependencies import Input,Output,State
 import dash_bootstrap_components as dbc
 import dash_html_components as html
