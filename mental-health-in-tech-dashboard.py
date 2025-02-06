@@ -802,6 +802,7 @@ from dash import Dash, html, dcc
 from jupyter_dash import JupyterDash
 from dash.dependencies import Input,Output,State
 import dash_bootstrap_components as dbc
+import dash_html_components as html
 import numpy as np
 import dash
 
@@ -809,7 +810,7 @@ import dash
 # In[39]:
 
 
-get_ipython().system('pip install flask-ngrok')
+
 
 
 # In[40]:
@@ -821,7 +822,7 @@ Countries = ['USA', 'UK', 'India', 'Canada', 'Germany']
 # In[41]:
 
 
-app = JupyterDash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],
                 meta_tags=[{'name': 'viewport',
                             'content': 'width=device-width, initial-scale=1.0'}]
                 )
@@ -1037,6 +1038,4 @@ def switch_button(at , dp7):
 
 
 
-if __name__ == '__main__':
-    app.run_server(debug=True, port=5051)
-
+server=app.server
