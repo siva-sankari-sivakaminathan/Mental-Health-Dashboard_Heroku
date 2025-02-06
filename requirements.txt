@@ -7,3 +7,4 @@ flask-ngrok
 dash
 jupyter-dash
 dash-bootstrap-components
+matplotlib
