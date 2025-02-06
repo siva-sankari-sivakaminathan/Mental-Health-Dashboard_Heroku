@@ -11,3 +11,4 @@ nbformat
 wordcloud
 seaborn
 plotly
+ipython
